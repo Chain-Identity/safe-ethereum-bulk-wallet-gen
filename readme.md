@@ -9,7 +9,7 @@
 
 > Minimal code bulk address generator based on the official go-ethereum generator ⚡️ <br> thousands of addresses in a matter of seconds
 
-## **SAFE AND FAST WALLET GENERATOR **
+## **SAFE AND FAST WALLET GENERATOR**
 
 - Speed: 100K wallets per second
 - SQLite support
