@@ -20,7 +20,6 @@
 
 ## Installation
 
-<img  align="right" src="https://user-images.githubusercontent.com/37617738/120122855-b1cb0800-c1d5-11eb-9502-8d64bb275337.png" height="140" alt="gopher" />
 
 ```console
 $ go install github.com/Chain-Identity/safe-ethereum-bulk-wallet-gen@latest
