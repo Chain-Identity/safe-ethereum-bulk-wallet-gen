@@ -9,9 +9,7 @@
 
 > Minimal code bulk address generator based on the official go-ethereum generator ⚡️ <br> thousands of addresses in a matter of seconds
 
-## **SAFE AND FAST WALLET GENERATOR **
-
-![ethereum and crypto wallets generated] 
+## **SAFE AND FAST WALLET GENERATOR**
 
 - Speed - 100K wallets per second
 - SQLite support
@@ -20,7 +18,6 @@
 
 ## Installation
 
-<img  align="right" src="https://user-images.githubusercontent.com/37617738/120122855-b1cb0800-c1d5-11eb-9502-8d64bb275337.png" height="140" alt="gopher" />
 
 ```console
 $ go install github.com/Chain-Identity/safe-ethereum-bulk-wallet-gen@latest
@@ -35,11 +32,6 @@ There are three options for output
 - **In memory** - Outputs wallets to memory
 
 ## Usage
-	number := flag.Int("n", 100, "set number of generate times (not number of result wallet) (set number to 0 for Infinite loop ∞)")
-	limit := flag.Int("limit", 100, "set limit number of result wallet. stop generate when result of vanity wallet reach the limit (set number to 0 for no limit)")
-	dbPath := flag.String("db", "", "set sqlite output name that will be created in /db)")
-	csvPath := flag.String("csv name", "../result.csv", "csv filename")
-	concurrency := flag.Int("c", 1, "set concurrency value")
 ```console
 Flags
   -n          int    number of wallets generated
