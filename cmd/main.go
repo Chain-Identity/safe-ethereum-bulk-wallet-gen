@@ -43,7 +43,7 @@ func main() {
 	// Parse flags
 	number := flag.Int("n", 100, "set number of generate times (not number of result wallet) (set number to 0 for Infinite loop ∞)")
 	dbPath := flag.String("db", "", "set sqlite output name that will be created in /db)")
-	csvPath := flag.String("csv", "../result.csv", "csv filename")
+	csvPath := flag.String("csv", "", "csv filename")
 	concurrency := flag.Int("c", 1, "set concurrency value")
 	flag.Parse()
 
