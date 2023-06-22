@@ -11,8 +11,6 @@
 
 ## **SAFE AND FAST WALLET GENERATOR **
 
-![ethereum and crypto wallets generated] 
-
 - Speed: 100K wallets per second
 - SQLite support
 - Minimal code, low deps, so you can ensure the code is 100% safe
