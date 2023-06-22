@@ -34,11 +34,6 @@ There are three options for output
 - **In memory** - Outputs wallets to memory
 
 ## Usage
-	number := flag.Int("n", 100, "set number of generate times (not number of result wallet) (set number to 0 for Infinite loop ∞)")
-	limit := flag.Int("limit", 100, "set limit number of result wallet. stop generate when result of vanity wallet reach the limit (set number to 0 for no limit)")
-	dbPath := flag.String("db", "", "set sqlite output name that will be created in /db)")
-	csvPath := flag.String("csv name", "../result.csv", "csv filename")
-	concurrency := flag.Int("c", 1, "set concurrency value")
 ```console
 Flags
   -n          int    number of wallets generated
